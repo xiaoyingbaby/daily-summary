@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>人员分布列表</title>
+    <link type="text/css" rel="stylesheet" href="css/public.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <style>
+        a:hover{text-decoration:none;}
+        img{vertical-align:top;}
+        .content{width:650px;margin:50px auto 20px;padding:10px;border:1px #c0c0c0 solid;font-size:14px;}
+        .list-person{padding:10px;text-align:center;}
+        .list-title{line-height:30px;font-size:16px;font-weight:normal;}
+        .list-person-ul{display:inline-block;text-align:justify;*text-justify:inter-ideograph;_zoom:1;*display:inline;}
+        .list-person-ul li{display:inline-block;width:100px;margin:10px;line-height:24px;text-align:center;vertical-align:top;_zoom:1;*display:inline;font-size:0;}
+        .list-person-ul li a{display:inline-block;}
+        .list-person-ul li i{display:block;width:80px;height:80px;background:#4384ec;border-radius:80px;}
+        .list-person-ul li span{font-size:14px;}
+        /*.list-person-ul li.justify-last{width:100%;height:50px;padding:0;overflow:hidden;}*/
+
+        .wrapper{width:1000px;margin:50px auto;}
+        .wrapper{display:table;border-collapse:collapse;text-align:center;}
+        .row{display:table-row;}
+        .nav{display:table-cell;width:180px;height:200px;background-color:#e7dbcd;}
+        .middle{display:table-cell;width:180px;padding-left:10px;border:1px solid #a14615;}
+        .right{display:table-cell;width:280px;padding-left:10px;background:#65cbf6;}
+        .table-row{display:table-cell;width:200px;height:150px;border:1px solid #a14615;text-align:center;}
+        .bottom{width:200px;height:150px;background:#a14615;text-align:center;}
+
+        .wrapper{display:table;border-spacing:4px;text-align:center;}
+        .wrapper1{width:552px;border-collapse:separate;}
+        .row{display:table-row;}
+        .images{display:table-cell;width:260px;background-color:#000;border:8px #000 solid;vertical-align:top;text-align:center;}
+        .images p{color:#fff;text-align:left;padding-top:8px;line-height:24px;font-size:14px;}
+
+        .content1{font-size:0;/*letter-spacing:-4px;word-spacing:-10px;*/}
+        .content .content-block{display:inline-block;width:200px;height:200px;background:#4384ec;}
+        .content .content-block1{background:#20b9e5;}
+
+        .content2{font-size:0;text-align:justify;text-align-last:left;}
+        .content-inline{display:inline-block;width:120px;height:120px;background:#1EAFE5;font-size:0;margin:5px;vertical-align:top;}
+        .content-inline1{height:150px;}
+        .content2:after{width: 100%;height: 0;margin: 0;display: inline-block;overflow: hidden;content: '';}
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="list-person">
+        <div class="list-person-div">
+            <h3 class="list-title">大领导</h3>
+            <ul class="list-person-ul">
+                <li><a href="##"><i></i><span>首长</span></a></li>
+            </ul>
+        </div>
+        <div class="list-person-div">
+            <h3 class="list-title">中领导</h3>
+            <ul class="list-person-ul">
+                <li><a href="##"><i></i><span>连长</span></a></li>
+                <li><a href="##"><i></i><span>团长</span></a></li>
+                <li><a href="##"><i></i><span>小团长</span></a></li>
+            </ul>
+        </div>
+        <div class="list-person-div">
+            <h3 class="list-title">小领导</h3>
+            <ul class="list-person-ul">
+                <li><a href="##"><i></i><span>对长</span></a></li>
+                <li><a href="##"><i></i><span>大队长</span></a></li>
+                <li><a href="##"><i></i><span>小队长</span></a></li>
+                <li><a href="##"><i></i><span>副队长</span></a></li>
+                <li><a href="##"><i></i><span>小队长</span></a></li>
+                <li><a href="##"><i></i><span>副队长</span></a></li>
+                <li><a href="##"><i></i><span>小队长</span></a></li>
+                <li><a href="##"><i></i><span>副队长</span></a></li>
+                <!--<li class="justify-last"></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="row">
+        <div class="nav">左侧导航</div>
+        <div class="middle">中间内容</div>
+        <div class="right">右侧内容</div>
+    </div>
+</div>
+<div class="content">
+    <div class="table-row">左侧</div>
+    <div class="table-row">中间</div>
+    <div class="table-row">右侧</div>
+    <div class="bottom">不在表格中</div>
+</div>
+<div class="wrapper wrapper1">
+    <div class="row">
+        <div class="images"><img src="images/IMG_0028.JPG" width="260" height="304"/><p>这是一张图片</p></div>
+        <div class="images"><img src="images/IMG_0030.JPG" width="260" height="194"/><p>这是一张动漫图片,这是一张动漫图片，这是一张动漫图片</p></div>
+    </div>
+    <div class="row">
+        <div class="images"><img src="images/IMG_0042.JPG" width="260" height="195"/><p>这是一张图片，这是一张动漫图片，这是一张动漫图片</p></div>
+        <div class="images"><img src="images/IMG_0039.JPG" width="260" height="260"/><p>这是一张图片</p></div>
+    </div>
+</div>
+<div class="content content1">
+    <img class="content-img" src="images/IMG_0028.JPG" width="260" height="304"/>
+    <img class="content-img" src="images/IMG_0030.JPG" width="260" height="194"/>
+    <div class="content-block"></div>
+    <div class="content-block content-block1"></div>
+</div>
+<div class="content content2">
+    <div class="content-inline content-inline1"></div>
+    <div class="content-inline"></div>
+    <div class="content-inline"></div>
+    <div class="content-inline"></div>
+    <div class="content-inline"></div>
+    <div class="content-inline"></div>
+    <div class="content-inline"></div>
+</div>
+</body>
+</html>

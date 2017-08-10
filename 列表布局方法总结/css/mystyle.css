@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*###############通用样式###############*/
+html,body,body>form{height: 100%;} 	/*页脚固定在页面底部样式*/
+body{font: 14px/1.5 'Microsoft Yahei';background:#fff;color:#444;}
+.wrapper{position:relative; min-height:100%;} 	/*页脚固定在页面底部样式*/
+.inner{position:relative;width:1100px; margin-left:auto; margin-right:auto;} 	/*居中显示*/
+a:hover{text-decoration:none;}
+.content{padding-top:30px;padding-bottom: 203px;}
+
+
+/*###############中心样式###############*/
+.main-title{padding-bottom:20px;line-height:40px;text-align:center;font-size:26px;}
+.module-title{font-size:20px;}
+.main .hd{height:36px;line-height:36px;}
+.main .bd p,.center-p{margin:15px 0;line-height:28px;font-size:16px;}
+.main .bd p img{margin:5px 0;}
+.main .bd p .word-red{color:#ef0d0d;}
+.tab-color{width:800px;margin:10px 0;font-size:14px;}
+.tab-color tr,.tab-color th,.tab-color td{padding:5px;border:1px #e7dbcd solid;text-align:center;}
+.main .bd p .link{color:#ef0d0d;text-decoration:underline;}
